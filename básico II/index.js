@@ -19,7 +19,7 @@ function somar(x1, x2) { //Função e seus parâmetros
 }
 
 //A variável resultado recebe o retorno da função somar()
-let resultado = somar(5,9);//Função e seus Argumentos
+let resultado = somar(5, 9);//Função e seus Argumentos
 
 console.log(resultado); // 14
 
@@ -29,7 +29,7 @@ function calcular(x1, x2, operador) { //Função e seus parâmetros
 }
 
 //A variável resultado recebe o retorno da função calcular()
-resultado = calcular(8,9,"+"); //Função e seus Argumentos
+resultado = calcular(8, 9, "+"); //Função e seus Argumentos
 console.log(resultado); // 17
 
 
@@ -40,4 +40,4 @@ console.log(resultado); // 17
     let resultado = eval(`${x1} ${operador} ${x2}`);
     console.log(resultado); // 7
     return resultado;
-})(3,4,"+"); // Argumento da função anônima
+})(3, 4, "+"); // Argumento da função anônima
