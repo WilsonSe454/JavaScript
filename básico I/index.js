@@ -19,8 +19,8 @@ console.log(helloWorld);
 console.log(helloWorld);
 
 // = atribuição
-let a = 10; 
-const b = "10"; 
+let a = 10;
+const b = "10";
 let resultado = 0;
 
 console.log("a = " + a + ", b = " + b)
@@ -43,7 +43,7 @@ console.log("a !== b = " + resultado); //true
 
 //Operadores lógicos
 resultado = a == b || typeof a == 'string';
-console.log("a == b || typeof a == 'string' = " + resultado); 
+console.log("a == b || typeof a == 'string' = " + resultado);
 
 resultado = a == b && typeof a == 'string';
 console.log("a == b && typeof a == 'string' = " + resultado);
@@ -52,11 +52,11 @@ console.log("a == b && typeof a == 'string' = " + resultado);
 // Operadores condicionais
 let cor = "amarelo";
 
-if(cor === "verde") {
+if (cor === "verde") {
 
     console.log("siga");
 
-} else if (cor === "amarelo"){
+} else if (cor === "amarelo") {
 
     console.log("atenção");
 
