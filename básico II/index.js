@@ -34,7 +34,7 @@ let resultado = somar(5, 9);//Função e seus Argumentos
 console.log(resultado); // 14
 
 function calcular(x1, x2, operador) { //Função e seus parâmetros
-    // A função eval, avalia o código JavaScript e o executa.
+    // A função eval, avalia o código JavaScript e o executa como um script.
     return eval(`${x1} ${operador} ${x2}`);
 }
 
@@ -46,7 +46,7 @@ console.log(resultado); // 17
 // Função anônima é chamado no assim que ela é criada
 (function (x1, x2, operador) { //Função e seus Argumentos
 
-    // A função eval, avalia o código JavaScript e o executa.
+    // A função eval, avalia o código JavaScript e o executa como um script.
     let resultado = eval(`${x1} ${operador} ${x2}`);
     console.log(resultado); // 7
     return resultado;
@@ -56,7 +56,7 @@ console.log(resultado); // 17
 
 // Arrow Function
 let calc = (x1, x2, operador) => { // A variável calc recebe a arrow function
-    // A função eval, avalia o código JavaScript e o executa.
+    // A função eval, avalia o código JavaScript e o executa como um script .
     return eval(`${x1} ${operador} ${x2}`);
 }
 
