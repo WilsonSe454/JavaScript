@@ -14,8 +14,10 @@
 console.log("----------------------Jeito Antigo------------------------");
 let celular = function() {
     //This É um comando interno usado para referenciar atributos e métodos na mesma classe.
+    // Atributos
     this.cor = "prata"; 
 
+    // Métodos
     this.ligar = function() {
 
         console.log("Uma ligação");
